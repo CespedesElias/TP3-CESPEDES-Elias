@@ -1,0 +1,29 @@
+Top level: Server.js
+--
+Segundo nivel capa de Ruteo; capa de presentacion (vista).
+interpreta las peticiones del cliente y activa el controlador correspondiente
+
+--
+Tercer nivel capa de Controlador; sabe como extraer datos del cliente y
+ como responderle
+ ***AKA NO METER CALCULOS NI NADA***
+
+--
+Cuarto nivel Capa de Servicio o capa de dominio; aka va la logica del 
+negocio del Servidor
+lo que tiene que hacer el Servidor independiente de la tegnologia.
+aka donde se deben calcular los promedios y operaciones
+--
+
+ultimo nivel Model, interactua con los datos y la persistencia 
+(actualizacion borrado y demas)
+----
+
+MVC
+
+M: Capa de modelo
+V: Capa de router
+C: Capa de controlador
+
+---
+*****************BORRAR LOS NODE MODULES ***************
